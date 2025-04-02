@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class CityFactory extends Factory
 {
-    protected $model = City::class;
+    protected $model = ::class;
     public function definition()
     {
         return [
